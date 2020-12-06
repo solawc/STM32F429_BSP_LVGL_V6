@@ -1,6 +1,6 @@
 Dependencies for Project 'STM32F429_BSP_LVGL', Target 'STM32F429_BSP_NO_OS': (DO NOT MODIFY !)
 F (startup_stm32f429xx.s)(0x5F9C4350)(--cpu Cortex-M4.fp -g --apcs=interwork --pd "__MICROLIB SETA 1"-I.\RTE\_STM32F429_BSP_NO_OS-ID:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include-ID:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.14.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include--pd "__UVISION_VERSION SETA 525" --pd "_RTE_ SETA 1" --pd "STM32F429xx SETA 1"--list startup_stm32f429xx.lst --xref -o stm32f429_bsp_no_os\startup_stm32f429xx.o --depend stm32f429_bsp_no_os\startup_stm32f429xx.d)
-F (../Src/main.c)(0x5FBE2EC6)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ..\Drivers\BSP_Driver -I ..\Drivers\BSP_Driver\lcd\lcd -I ..\Drivers\BSP_Driver\lcd\fonts -I ..\Drivers\BSP_Driver\lcd\sdram -I ..\Drivers\BSP_Driver\lcd\touch -I ..\Drivers\STemWin\Config -I ..\Drivers\STemWin\inc -I ..\Drivers\STemWin\demo -I ..\Drivers\CMSIS\Include -I ..\GUI -I ..\GUI\lvgl -I ..\GUI\lv_examples -I ..\GUI\lvgl_driver -I ..\GUI\lv_examples\lv_apps\demo -I ..\GUI\lv_examples\lv_tests\lv_test_theme -I ..\GUI_APP --diag_suppress=68 --diag_suppress=111 --diag_suppress=550-I.\RTE\_STM32F429_BSP_NO_OS-ID:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include-ID:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.14.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="525" -D_RTE_ -DSTM32F429xx -DUSE_HAL_DRIVER -DSTM32F429xx -DLV_CONF_INCLUDE_SIMPLE -D__FPU_PRESENT="1"-o stm32f429_bsp_no_os\main.o --depend stm32f429_bsp_no_os\main.d)
+F (../Src/main.c)(0x5FCCB575)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ..\Drivers\BSP_Driver -I ..\Drivers\BSP_Driver\lcd\lcd -I ..\Drivers\BSP_Driver\lcd\fonts -I ..\Drivers\BSP_Driver\lcd\sdram -I ..\Drivers\BSP_Driver\lcd\touch -I ..\Drivers\STemWin\Config -I ..\Drivers\STemWin\inc -I ..\Drivers\STemWin\demo -I ..\Drivers\CMSIS\Include -I ..\GUI -I ..\GUI\lvgl -I ..\GUI\lv_examples -I ..\GUI\lvgl_driver -I ..\GUI\lv_examples\lv_apps\demo -I ..\GUI\lv_examples\lv_tests\lv_test_theme -I ..\GUI_APP --diag_suppress=68 --diag_suppress=111 --diag_suppress=550-I.\RTE\_STM32F429_BSP_NO_OS-ID:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include-ID:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.14.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="525" -D_RTE_ -DSTM32F429xx -DUSE_HAL_DRIVER -DSTM32F429xx -DLV_CONF_INCLUDE_SIMPLE -D__FPU_PRESENT="1"-o stm32f429_bsp_no_os\main.o --depend stm32f429_bsp_no_os\main.d)
 I (../Inc/main.h)(0x5FB54C28)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h)(0x5EFB1812)
 I (../Inc/stm32f4xx_hal_conf.h)(0x5F482DB5)
@@ -56,7 +56,7 @@ I (..\Drivers\BSP_Driver\lcd\lcd\mylcd.h)(0x5F3ABE20)
 I (..\Drivers\BSP_Driver\mymalloc.h)(0x5F415469)
 I (..\Drivers\BSP_Driver\bsp_dma.h)(0x5F4828BF)
 I (..\Drivers\BSP_Driver\lcd\touch\bsp_i2c_touch.h)(0x5F9EEAEA)
-I (..\GUI_APP\lvgl_task.h)(0x5FBE2EB6)
+I (..\GUI_APP\lvgl_task.h)(0x5FCCB5B4)
 I (..\GUI\lvgl\lvgl.h)(0x5D232498)
 I (..\GUI\lvgl\src/lv_version.h)(0x5D232498)
 I (..\GUI\lvgl\src/lv_misc/lv_log.h)(0x5D232498)
@@ -200,7 +200,7 @@ I (..\Drivers\BSP_Driver\lcd\lcd\mylcd.h)(0x5F3ABE20)
 I (..\Drivers\BSP_Driver\mymalloc.h)(0x5F415469)
 I (..\Drivers\BSP_Driver\bsp_dma.h)(0x5F4828BF)
 I (..\Drivers\BSP_Driver\lcd\touch\bsp_i2c_touch.h)(0x5F9EEAEA)
-I (..\GUI_APP\lvgl_task.h)(0x5FBE2EB6)
+I (..\GUI_APP\lvgl_task.h)(0x5FCCB5B4)
 I (..\GUI\lvgl\lvgl.h)(0x5D232498)
 I (..\GUI\lvgl\src/lv_version.h)(0x5D232498)
 I (..\GUI\lvgl\src/lv_misc/lv_log.h)(0x5D232498)
@@ -337,7 +337,7 @@ I (..\Drivers\BSP_Driver\lcd\lcd\mylcd.h)(0x5F3ABE20)
 I (..\Drivers\BSP_Driver\mymalloc.h)(0x5F415469)
 I (..\Drivers\BSP_Driver\bsp_dma.h)(0x5F4828BF)
 I (..\Drivers\BSP_Driver\lcd\touch\bsp_i2c_touch.h)(0x5F9EEAEA)
-I (..\GUI_APP\lvgl_task.h)(0x5FBE2EB6)
+I (..\GUI_APP\lvgl_task.h)(0x5FCCB5B4)
 I (..\GUI\lvgl\lvgl.h)(0x5D232498)
 I (..\GUI\lvgl\src/lv_version.h)(0x5D232498)
 I (..\GUI\lvgl\src/lv_misc/lv_log.h)(0x5D232498)
@@ -474,7 +474,7 @@ I (..\Drivers\BSP_Driver\lcd\lcd\mylcd.h)(0x5F3ABE20)
 I (..\Drivers\BSP_Driver\mymalloc.h)(0x5F415469)
 I (..\Drivers\BSP_Driver\bsp_dma.h)(0x5F4828BF)
 I (..\Drivers\BSP_Driver\lcd\touch\bsp_i2c_touch.h)(0x5F9EEAEA)
-I (..\GUI_APP\lvgl_task.h)(0x5FBE2EB6)
+I (..\GUI_APP\lvgl_task.h)(0x5FCCB5B4)
 I (..\GUI\lvgl\lvgl.h)(0x5D232498)
 I (..\GUI\lvgl\src/lv_version.h)(0x5D232498)
 I (..\GUI\lvgl\src/lv_misc/lv_log.h)(0x5D232498)
@@ -612,7 +612,7 @@ I (..\Drivers\BSP_Driver\lcd\lcd\mylcd.h)(0x5F3ABE20)
 I (..\Drivers\BSP_Driver\mymalloc.h)(0x5F415469)
 I (..\Drivers\BSP_Driver\bsp_dma.h)(0x5F4828BF)
 I (..\Drivers\BSP_Driver\lcd\touch\bsp_i2c_touch.h)(0x5F9EEAEA)
-I (..\GUI_APP\lvgl_task.h)(0x5FBE2EB6)
+I (..\GUI_APP\lvgl_task.h)(0x5FCCB5B4)
 I (..\GUI\lvgl\lvgl.h)(0x5D232498)
 I (..\GUI\lvgl\src/lv_version.h)(0x5D232498)
 I (..\GUI\lvgl\src/lv_misc/lv_log.h)(0x5D232498)
@@ -1789,7 +1789,7 @@ I (..\Drivers\BSP_Driver\lcd\lcd\mylcd.h)(0x5F3ABE20)
 I (..\Drivers\BSP_Driver\mymalloc.h)(0x5F415469)
 I (..\Drivers\BSP_Driver\bsp_dma.h)(0x5F4828BF)
 I (..\Drivers\BSP_Driver\lcd\touch\bsp_i2c_touch.h)(0x5F9EEAEA)
-I (..\GUI_APP\lvgl_task.h)(0x5FBE2EB6)
+I (..\GUI_APP\lvgl_task.h)(0x5FCCB5B4)
 I (..\GUI\lvgl\lvgl.h)(0x5D232498)
 I (..\GUI\lvgl\src/lv_version.h)(0x5D232498)
 I (..\GUI\lvgl\src/lv_misc/lv_log.h)(0x5D232498)
@@ -1926,7 +1926,7 @@ I (..\Drivers\BSP_Driver\lcd\lcd\mylcd.h)(0x5F3ABE20)
 I (..\Drivers\BSP_Driver\mymalloc.h)(0x5F415469)
 I (..\Drivers\BSP_Driver\bsp_dma.h)(0x5F4828BF)
 I (..\Drivers\BSP_Driver\lcd\touch\bsp_i2c_touch.h)(0x5F9EEAEA)
-I (..\GUI_APP\lvgl_task.h)(0x5FBE2EB6)
+I (..\GUI_APP\lvgl_task.h)(0x5FCCB5B4)
 I (..\GUI\lvgl\lvgl.h)(0x5D232498)
 I (..\GUI\lvgl\src/lv_version.h)(0x5D232498)
 I (..\GUI\lvgl\src/lv_misc/lv_log.h)(0x5D232498)
@@ -2063,7 +2063,7 @@ I (..\Drivers\BSP_Driver\lcd\lcd\mylcd.h)(0x5F3ABE20)
 I (..\Drivers\BSP_Driver\mymalloc.h)(0x5F415469)
 I (..\Drivers\BSP_Driver\bsp_dma.h)(0x5F4828BF)
 I (..\Drivers\BSP_Driver\lcd\touch\bsp_i2c_touch.h)(0x5F9EEAEA)
-I (..\GUI_APP\lvgl_task.h)(0x5FBE2EB6)
+I (..\GUI_APP\lvgl_task.h)(0x5FCCB5B4)
 I (..\GUI\lvgl\lvgl.h)(0x5D232498)
 I (..\GUI\lvgl\src/lv_version.h)(0x5D232498)
 I (..\GUI\lvgl\src/lv_misc/lv_log.h)(0x5D232498)
@@ -2242,7 +2242,7 @@ I (..\Drivers\BSP_Driver\lcd\lcd\mylcd.h)(0x5F3ABE20)
 I (..\Drivers\BSP_Driver\mymalloc.h)(0x5F415469)
 I (..\Drivers\BSP_Driver\bsp_dma.h)(0x5F4828BF)
 I (..\Drivers\BSP_Driver\lcd\touch\bsp_i2c_touch.h)(0x5F9EEAEA)
-I (..\GUI_APP\lvgl_task.h)(0x5FBE2EB6)
+I (..\GUI_APP\lvgl_task.h)(0x5FCCB5B4)
 I (..\GUI\lvgl\lvgl.h)(0x5D232498)
 I (..\GUI\lvgl\src/lv_version.h)(0x5D232498)
 I (..\GUI\lvgl\src/lv_misc/lv_log.h)(0x5D232498)
@@ -2428,7 +2428,7 @@ I (..\Drivers\BSP_Driver\lcd\lcd\bsp_ltdc.h)(0x5FA02ABF)
 I (..\Drivers\BSP_Driver\lcd\lcd\mylcd.h)(0x5F3ABE20)
 I (..\Drivers\BSP_Driver\mymalloc.h)(0x5F415469)
 I (..\Drivers\BSP_Driver\bsp_dma.h)(0x5F4828BF)
-I (..\GUI_APP\lvgl_task.h)(0x5FBE2EB6)
+I (..\GUI_APP\lvgl_task.h)(0x5FCCB5B4)
 I (..\GUI\lvgl\lvgl.h)(0x5D232498)
 I (..\GUI\lvgl\src/lv_version.h)(0x5D232498)
 I (..\GUI\lvgl\src/lv_misc/lv_log.h)(0x5D232498)
@@ -2564,7 +2564,7 @@ I (..\Drivers\BSP_Driver\lcd\lcd\bsp_ltdc.h)(0x5FA02ABF)
 I (..\Drivers\BSP_Driver\lcd\lcd\mylcd.h)(0x5F3ABE20)
 I (..\Drivers\BSP_Driver\mymalloc.h)(0x5F415469)
 I (..\Drivers\BSP_Driver\lcd\touch\bsp_i2c_touch.h)(0x5F9EEAEA)
-I (..\GUI_APP\lvgl_task.h)(0x5FBE2EB6)
+I (..\GUI_APP\lvgl_task.h)(0x5FCCB5B4)
 I (..\GUI\lvgl\lvgl.h)(0x5D232498)
 I (..\GUI\lvgl\src/lv_version.h)(0x5D232498)
 I (..\GUI\lvgl\src/lv_misc/lv_log.h)(0x5D232498)
@@ -5710,7 +5710,7 @@ I (..\Drivers\BSP_Driver\lcd\lcd\mylcd.h)(0x5F3ABE20)
 I (..\Drivers\BSP_Driver\mymalloc.h)(0x5F415469)
 I (..\Drivers\BSP_Driver\bsp_dma.h)(0x5F4828BF)
 I (..\Drivers\BSP_Driver\lcd\touch\bsp_i2c_touch.h)(0x5F9EEAEA)
-I (..\GUI_APP\lvgl_task.h)(0x5FBE2EB6)
+I (..\GUI_APP\lvgl_task.h)(0x5FCCB5B4)
 F (..\GUI\lvgl_driver\lv_port_indev.c)(0x5F9EF548)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ..\Drivers\BSP_Driver -I ..\Drivers\BSP_Driver\lcd\lcd -I ..\Drivers\BSP_Driver\lcd\fonts -I ..\Drivers\BSP_Driver\lcd\sdram -I ..\Drivers\BSP_Driver\lcd\touch -I ..\Drivers\STemWin\Config -I ..\Drivers\STemWin\inc -I ..\Drivers\STemWin\demo -I ..\Drivers\CMSIS\Include -I ..\GUI -I ..\GUI\lvgl -I ..\GUI\lv_examples -I ..\GUI\lvgl_driver -I ..\GUI\lv_examples\lv_apps\demo -I ..\GUI\lv_examples\lv_tests\lv_test_theme -I ..\GUI_APP --diag_suppress=68 --diag_suppress=111 --diag_suppress=550-I.\RTE\_STM32F429_BSP_NO_OS-ID:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include-ID:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.14.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="525" -D_RTE_ -DSTM32F429xx -DUSE_HAL_DRIVER -DSTM32F429xx -DLV_CONF_INCLUDE_SIMPLE -D__FPU_PRESENT="1"-o stm32f429_bsp_no_os\lv_port_indev.o --depend stm32f429_bsp_no_os\lv_port_indev.d)
 I (..\GUI\lvgl_driver\lv_port_indev.h)(0x5F9EEC9E)
 I (..\GUI\lvgl/lvgl.h)(0x5D232498)
@@ -5835,8 +5835,8 @@ I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h)(0x5EFB1812)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h)(0x5EFB1812)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h)(0x5EFB1812)
 F (..\GUI\lv_conf.h)(0x5FB40B62)()
-F (..\GUI_APP\lvgl_task.c)(0x5FBE2EB1)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ..\Drivers\BSP_Driver -I ..\Drivers\BSP_Driver\lcd\lcd -I ..\Drivers\BSP_Driver\lcd\fonts -I ..\Drivers\BSP_Driver\lcd\sdram -I ..\Drivers\BSP_Driver\lcd\touch -I ..\Drivers\STemWin\Config -I ..\Drivers\STemWin\inc -I ..\Drivers\STemWin\demo -I ..\Drivers\CMSIS\Include -I ..\GUI -I ..\GUI\lvgl -I ..\GUI\lv_examples -I ..\GUI\lvgl_driver -I ..\GUI\lv_examples\lv_apps\demo -I ..\GUI\lv_examples\lv_tests\lv_test_theme -I ..\GUI_APP --diag_suppress=68 --diag_suppress=111 --diag_suppress=550-I.\RTE\_STM32F429_BSP_NO_OS-ID:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include-ID:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.14.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="525" -D_RTE_ -DSTM32F429xx -DUSE_HAL_DRIVER -DSTM32F429xx -DLV_CONF_INCLUDE_SIMPLE -D__FPU_PRESENT="1"-o stm32f429_bsp_no_os\lvgl_task.o --depend stm32f429_bsp_no_os\lvgl_task.d)
-I (..\GUI_APP\lvgl_task.h)(0x5FBE2EB6)
+F (..\GUI_APP\lvgl_task.c)(0x5FCCBF02)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ..\Drivers\BSP_Driver -I ..\Drivers\BSP_Driver\lcd\lcd -I ..\Drivers\BSP_Driver\lcd\fonts -I ..\Drivers\BSP_Driver\lcd\sdram -I ..\Drivers\BSP_Driver\lcd\touch -I ..\Drivers\STemWin\Config -I ..\Drivers\STemWin\inc -I ..\Drivers\STemWin\demo -I ..\Drivers\CMSIS\Include -I ..\GUI -I ..\GUI\lvgl -I ..\GUI\lv_examples -I ..\GUI\lvgl_driver -I ..\GUI\lv_examples\lv_apps\demo -I ..\GUI\lv_examples\lv_tests\lv_test_theme -I ..\GUI_APP --diag_suppress=68 --diag_suppress=111 --diag_suppress=550-I.\RTE\_STM32F429_BSP_NO_OS-ID:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include-ID:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.14.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="525" -D_RTE_ -DSTM32F429xx -DUSE_HAL_DRIVER -DSTM32F429xx -DLV_CONF_INCLUDE_SIMPLE -D__FPU_PRESENT="1"-o stm32f429_bsp_no_os\lvgl_task.o --depend stm32f429_bsp_no_os\lvgl_task.d)
+I (..\GUI_APP\lvgl_task.h)(0x5FCCB5B4)
 I (../Inc/main.h)(0x5FB54C28)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h)(0x5EFB1812)
 I (../Inc/stm32f4xx_hal_conf.h)(0x5F482DB5)

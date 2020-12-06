@@ -9,4 +9,5 @@
 
 void led_task_start(void);
 void lv_obj_test_start(void);
+void lv_label_test(void);
 #endif

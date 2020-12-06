@@ -40,7 +40,6 @@ int main(void)
   bsp_led_init();
   DEBUG_PRINT("Init succeed");
   SDRAM_Init(); 
-
   GTP_Init_Panel();
   BSP_LCD_Init();
   LCD_LayerInit(0, LCD_FB_START_ADDRESS,RGB565);
@@ -61,7 +60,7 @@ int main(void)
 
   //lv_test_theme_1(lv_theme_night_init(210, NULL));
   //led_task_start();
-  lv_obj_test_start();
+  lv_label_test();
     
   while (1)
   {

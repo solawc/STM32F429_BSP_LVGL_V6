@@ -1,30 +1,30 @@
 #include "lvgl_task.h"
 
-lv_task_t *task1 = NULL;
 
-void task_led(lv_task_t *task)
-{
-    bsp_led_toggle(BSP_LED_B);
+void lv_label_test(void)
+{   
+    lv_obj_t *scr = lv_scr_act();
+
+    lv_obj_t *label_1 = lv_label_create(scr,NULL);
+    lv_obj_set_pos(label_1,50,50);
+    lv_label_set_body_draw(label_1,true);
+    lv_label_set_style(label_1,LV_LABEL_STYLE_MAIN,&lv_style_plain_color);
+
+    // lv_label_set_text(label_1,"hi HJH\nYou are so strong!");
+    // lv_label_set_array_text(label_1,name,sizeof((name)-1));
+    // lv_label_set_long_mode(label_1,LV_LABEL_LONG_EXPAND);
+    // lv_label_set_long_mode(label_1,LV_LABEL_LONG_BREAK);
+    lv_label_set_long_mode(label_1,LV_LABEL_LONG_SROLL);
+    lv_obj_set_size(label_1,100,50);
+    lv_label_set_recolor(label_1,true);
+    lv_label_set_text(label_1,"#00ff00 hi HJH#,#ff0000 You are so strong!#");
+
 }
 
-void led_task_start(void)
+lv_style_t my_style;
+void lv_style_test(void)
 {
-    task1 = lv_task_create(task_led,5000,LV_TASK_PRIO_LOW,NULL);
-}
 
 
-lv_obj_t *scr;
-lv_obj_t *obj1 = NULL;
-lv_obj_t *obj2 = NULL;
-lv_obj_t *obj3 = NULL;
-lv_style_t red_style;
-
-void lv_obj_test_start(void)
-{
-    scr = lv_scr_act();
-    obj1 = lv_obj_create(scr,NULL);
-//    lv_style_copy(&red_style,&lv_style_plain_color);
-//    red_style.body.main_color = LV_COLOR_RED;
-//    red_style.body.grad_color = LV_COLOR_RED;
 }
 
