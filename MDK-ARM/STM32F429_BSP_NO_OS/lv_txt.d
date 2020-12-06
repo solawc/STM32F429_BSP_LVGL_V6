@@ -1,0 +1,15 @@
+stm32f429_bsp_no_os\lv_txt.o: ..\GUI\lvgl\src\lv_misc\lv_txt.c
+stm32f429_bsp_no_os\lv_txt.o: ..\GUI\lvgl\src\lv_misc\lv_txt.h
+stm32f429_bsp_no_os\lv_txt.o: ..\GUI\lv_conf.h
+stm32f429_bsp_no_os\lv_txt.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+stm32f429_bsp_no_os\lv_txt.o: ..\GUI\lvgl/src/lv_conf_checker.h
+stm32f429_bsp_no_os\lv_txt.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdbool.h
+stm32f429_bsp_no_os\lv_txt.o: ..\GUI\lvgl\src\lv_misc\lv_area.h
+stm32f429_bsp_no_os\lv_txt.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
+stm32f429_bsp_no_os\lv_txt.o: ..\GUI\lv_conf.h
+stm32f429_bsp_no_os\lv_txt.o: ..\GUI\lvgl\src\lv_misc\../lv_font/lv_font.h
+stm32f429_bsp_no_os\lv_txt.o: ..\GUI\lv_conf.h
+stm32f429_bsp_no_os\lv_txt.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
+stm32f429_bsp_no_os\lv_txt.o: ..\GUI\lvgl\src\lv_misc\../lv_font/lv_symbol_def.h
+stm32f429_bsp_no_os\lv_txt.o: ..\GUI\lv_conf.h
+stm32f429_bsp_no_os\lv_txt.o: ..\GUI\lvgl\src\lv_misc\lv_math.h

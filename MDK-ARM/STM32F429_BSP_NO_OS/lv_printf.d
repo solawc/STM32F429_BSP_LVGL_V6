@@ -1,0 +1,9 @@
+stm32f429_bsp_no_os\lv_printf.o: ..\Drivers\lvgl\src\lv_misc\lv_printf.c
+stm32f429_bsp_no_os\lv_printf.o: ..\Drivers\lvgl\src\lv_misc\lv_printf.h
+stm32f429_bsp_no_os\lv_printf.o: ..\Drivers\lvgl\lv_conf.h
+stm32f429_bsp_no_os\lv_printf.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+stm32f429_bsp_no_os\lv_printf.o: ..\Drivers\lvgl\src\lv_conf_checker.h
+stm32f429_bsp_no_os\lv_printf.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdarg.h
+stm32f429_bsp_no_os\lv_printf.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
+stm32f429_bsp_no_os\lv_printf.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdbool.h
+stm32f429_bsp_no_os\lv_printf.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\float.h

@@ -1,0 +1,15 @@
+stm32f429_bsp_no_os\lv_font_fmt_txt.o: ..\GUI\lvgl\src\lv_font\lv_font_fmt_txt.c
+stm32f429_bsp_no_os\lv_font_fmt_txt.o: ..\GUI\lvgl\src\lv_font\lv_font.h
+stm32f429_bsp_no_os\lv_font_fmt_txt.o: ..\GUI\lv_conf.h
+stm32f429_bsp_no_os\lv_font_fmt_txt.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+stm32f429_bsp_no_os\lv_font_fmt_txt.o: ..\GUI\lvgl/src/lv_conf_checker.h
+stm32f429_bsp_no_os\lv_font_fmt_txt.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
+stm32f429_bsp_no_os\lv_font_fmt_txt.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdbool.h
+stm32f429_bsp_no_os\lv_font_fmt_txt.o: ..\GUI\lvgl\src\lv_font\lv_symbol_def.h
+stm32f429_bsp_no_os\lv_font_fmt_txt.o: ..\GUI\lv_conf.h
+stm32f429_bsp_no_os\lv_font_fmt_txt.o: ..\GUI\lvgl\src\lv_font\lv_font_fmt_txt.h
+stm32f429_bsp_no_os\lv_font_fmt_txt.o: ..\GUI\lv_conf.h
+stm32f429_bsp_no_os\lv_font_fmt_txt.o: ..\GUI\lvgl\src\lv_font\../lv_misc/lv_types.h
+stm32f429_bsp_no_os\lv_font_fmt_txt.o: ..\GUI\lvgl\src\lv_font\../lv_misc/lv_log.h
+stm32f429_bsp_no_os\lv_font_fmt_txt.o: ..\GUI\lv_conf.h
+stm32f429_bsp_no_os\lv_font_fmt_txt.o: ..\GUI\lvgl\src\lv_font\../lv_misc/lv_utils.h

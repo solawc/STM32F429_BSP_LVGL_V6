@@ -1,0 +1,1 @@
+stm32f429_bsp_no_os\startup_stm32f429xx.o: startup_stm32f429xx.s
